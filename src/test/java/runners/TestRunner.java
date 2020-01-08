@@ -14,7 +14,7 @@ import cucumber.api.CucumberOptions;
 		//plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" }, 	// -- Enable this for JSON reports
 		//plugin = { "usage" },													// gives more info about step definition execution in the console
 		monochrome = true,														// true -> Console output will be more readable
-		tags = {"@RunBackground"}
+		tags = {"@RunThis"}
 		)
 
 public class TestRunner {
